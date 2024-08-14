@@ -28,7 +28,7 @@ Langflow provides a visual interface for orchestrating AI work. It works with bo
 
 
 
-### Lnagflow-DB
+### Langflow-DB
 [https://hub.docker.com/_/postgres](https://hub.docker.com/_/postgres)
 
 For data persistance LangFlow requires a database, this container provides a postgres database specifically for use with langflow
