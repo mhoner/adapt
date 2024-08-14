@@ -2,7 +2,7 @@ services:
 
   ollama:
     volumes:
-      - ollama:/root/.ollama
+      - ./volumes/ollama:/root/.ollama
     container_name: ollama
     # pull_policy: always
     tty: true
@@ -115,5 +115,5 @@ services:
 
 
 volumes:
-  ollama: {}
+  # ollama: {}
   open-webui: {}
